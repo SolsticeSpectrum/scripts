@@ -3,6 +3,7 @@
 #      It's helpful when you want to develop mods and have runClient in online mode      #
 ##########################################################################################
 
+from getpass import getpass
 import requests
 import json
 import os
@@ -12,7 +13,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 # Asks for Minecraft credentials
 email = input("Please enter your Minecraft email: ")
-password = input("Please enter your Minecraft password: ")
+password = getpass("Please enter your Minecraft password: ")
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -26,7 +27,7 @@ if email !="" and password !="":
     
     # Checks if there is accessToken in the response, else returns with an error
     if "accessToken" in dict_json:
-        print("This is your access token for today:\n\n" + dict_json["accessToken"])
+        print("This is your access token for today: (generate new one tomorrow when it expires)\n\n" + dict_json["accessToken"])
     else:
         print("There was an error when trying to get the access token...")
         print("Please check if your credentials are correct or contact me on github!")
