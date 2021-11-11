@@ -27,7 +27,8 @@ if email !="" and password !="":
     
     # Checks if there is accessToken in the response, else returns with an error
     if "accessToken" in dict_json:
-        print("This is your access token for today: (generate new one tomorrow when it expires)\n\n" + dict_json["accessToken"])
+        print("This is your access token for today: (generate new one tomorrow when it expires)\n\n" + dict_json["accessToken"] + "\n")
+        print("Here is your UUID:\n" + dict_json["selectedProfile"]["id"])
     else:
         print("There was an error when trying to get the access token...")
         print("Please check if your credentials are correct or contact me on github!")
