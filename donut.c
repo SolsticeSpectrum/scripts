@@ -28,5 +28,3 @@ t*d);o=x+w*y;N             =8*((g*a-G*h*e)
        "donut.c!\x1b[23A"));printf
            ("\e[1;1H\e[2J");}}
               /* donut.c */
-
-
