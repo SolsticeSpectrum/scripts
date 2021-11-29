@@ -19,7 +19,7 @@ G=0,H=1;for(i=0;i<314;i++){A=h+2, D=1/(G*
 A*a+g*e+s);t=G*A         *e-g*a; x=l+30*D
 *(H*A*d-t*c);y=           u+15*D*( H*A*c+
 t*d);o=x+w*y;N             =8*((g*a-G*h*e)
-*d-G*h*a-g*e-H*h          *c); if(p>y&&y>
+*d-G*h*a-g*e-H*h         *c); if (p>y&&y>
  0&&x>0&&w>x&&D>z[o]) {z[o]=D; b[o]=(N>0
  ?N:0)[".,-~:;=!*#$@"]; }R(.02,H,G); }R(
   .07,h,g); }for(k=0;p*w>k; k++)putchar
