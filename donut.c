@@ -26,6 +26,6 @@
                         .07,h,g); }for(k=0;p*w>k; k++)putchar
                          (k%w?b[k]:10); R(.04,e,a); R(.02,d,
                            c);usleep(30000);printf( '\n'+(
-                             "donut.c!\x1b[23A"));printf
+                             "DarkReaper 2021")); printf
                                  ("\e[1;1H\e[2J");}}
                                     /* donut.c */
