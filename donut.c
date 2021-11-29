@@ -1,4 +1,6 @@
-/* compile with gcc -o donut donut.c -lm */
+               /* compile with gcc -o donut donut.c -lm */
+ /* thanks https://github.com/CarboSauce for helping me with this code */
+/* original code https://www.a1k0n.net/2021/01/13/optimizing-donut.html */
 
 #define s 7  // changes the size of the donut
 #define l 21 // changes the position from the first row on the left
