@@ -2,11 +2,11 @@
  /* thanks https://github.com/CarboSauce for helping me with this code */
 /* original code https://www.a1k0n.net/2021/01/13/optimizing-donut.html */
 
-#define s 7  // changes the size of the donut
-#define l 21 // changes the position from the first row on the left
-#define u 12 // changes the position from the top line
-#define w 38 // changes the number of rows
-#define p 20 // changes the number of lines
+#define s 6  // changes the size of the donut                        8  / 6  / 6
+#define l 40 // changes the position from the first row on the left  20 / 32 / 40
+#define u 11 // changes the position from the top line               8  / 12 / 11
+#define w 80 // changes the number of rows                           39 / 65 / 80
+#define p 22 // changes the number of lines                          15 / 24 / 22
 
               i,j,k,x,y,o,N;
          main(){float  z[1760],a
@@ -28,3 +28,5 @@ t*d);o=x+w*y;N             =8*((g*a-G*h*e)
        "donut.c!\x1b[23A"));printf
            ("\e[1;1H\e[2J");}}
               /* donut.c */
+
+
