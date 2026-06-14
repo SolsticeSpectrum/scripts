@@ -1,0 +1,33 @@
+{
+    "Handshaking": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    },
+    "LogRawBytes": true,
+    "LogToConsole": true,
+    "LogToFile": true,
+    "LogToReplay": false,
+    "Login": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    },
+    "MicrosoftAccountCacheKey": "",
+    "NetworkRecapToConsole": true,
+    "Online": false,
+    "Play": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    },
+    "Status": {
+        "detailed_clientbound": [],
+        "detailed_serverbound": [],
+        "ignored_clientbound": [],
+        "ignored_serverbound": []
+    }
+}
